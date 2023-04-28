@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "nombre": "Remera negra",
+    "descripcion": "Remera de algodón importada",
+    "codigoDeProducto": "1234567890",
+    "precio": "8500",
+    "thumbnail": "https://tse4.mm.bing.net/th?id=OIP.8JCm1sm5IFCRgVJGtMxdNAHaGS&pid=Api&P=0",
+    "stock": "50"
+  },
+  {
+    "id": 2,
+    "nombre": "Remera gris",
+    "descripcion": "Remera gris de algodón importada",
+    "codigoDeProducto": "1234567891",
+    "precio": "8500",
+    "thumbnail": "https://tse2.mm.bing.net/th?id=OIP.FacPMVgqfyQT54t7Nj5FKwHaGS&pid=Api&P=0",
+    "stock": "50"
+  },
+  {
+    "id": 3,
+    "nombre": "Montogmery",
+    "descripcion": "Montogmery importado de francia ",
+    "codigoDeProducto": "20939040930",
+    "precio": "55000",
+    "thumbnail": "https://tse2.mm.bing.net/th?id=OIP.N9EuMNNM05HV5WNJKxIYGAHaHa&pid=Api&P=0",
+    "stock": "22"
+  }
+]

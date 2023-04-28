@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+.logo__navBar{
+    border-radius: 50px;
+}

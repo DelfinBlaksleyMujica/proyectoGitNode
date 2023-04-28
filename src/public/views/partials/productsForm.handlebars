@@ -1,0 +1,22 @@
+<h2 class="mx-5 my-2">Formulario de Carga de productos</h2>
+{{#if error}}
+    <p class="mx-5 text-danger">{{error}}</p>
+{{/if}}
+<div class="mx-5 my-2 container-fluid">
+    <form action="/api/productos" method="POST">
+        <label>Nombre:</label>
+        <input class="form-control" type="text" name="nombre" placeholder="Ingresa el nombre del producto"/>
+        <label>Descripción:</label>
+        <input class="form-control" type="text" name="descripcion" placeholder="Ingresa la descripción del producto"/>
+        <label>Codigo de producto:</label>
+        <input class="form-control" type="number" name="codigoDeProducto" placeholder="Ingresa el código del producto"/>
+        <label>Precio:</label>
+        <input class="form-control" type="number" name="precio" placeholder="Ingresa el precio del producto"/>
+        <label>Url de imagén de producto:</label>
+        <input class="form-control" type="text" name="thumbnail" placeholder="Ingresa la url de la imágen del producto"/>
+        <label>Stock:</label>
+        <input class="form-control" type="number" name="stock" placeholder="Ingresa el stock que hay del producto"/>
+        <button type="submit" class="btn btn-dark my-3">Cargar producto</button>
+    </form>
+    <hr>
+</div>

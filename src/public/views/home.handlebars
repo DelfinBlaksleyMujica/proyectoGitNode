@@ -1,0 +1,32 @@
+<section class="container w-80">
+    <div class="d-flex flex-column justify-content-center align-items-center mx-5 my-5">
+        <h1 style="font-family: Bebas Neue;">ACTIVA SUPPLY E-COMMERCE</h1>
+        <h2 >¡WELCOME {{ username }}!
+            <button class="btn btn-dark" onclick="location.href='/logout'">Cerrar sesión</button>
+        </h2>
+        {{> productsForm}}
+        {{!-- {{> messagesForm}}
+                {{#if mensajes}}
+                    {{#each mensajes}}
+                        <div class="d-flex w-100 justify-content-between align-items-center">
+                            <div>
+                                <p class="mx-1 text-primary"><strong>{{this.username}}</strong></p>
+                            </div>
+                            <div>
+                                <p class="mx-1 text-danger">[{{this.date}}]:</p>
+                            </div>
+                            <div>
+                                <p class="mx-1 text-success">{{this.mensaje}}</p>
+                            </div>
+                        </div>
+                    {{/each}}
+                {{else}}
+                <div>
+                    <h1>No hay Mensajes para mostrar</h1>
+                </div>
+                {{/if}} --}}
+
+</div>
+</section>
+
+{{> importScripts}}
