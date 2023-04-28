@@ -19,7 +19,7 @@ const { UserModel } = require("../models/user.models");
 
 //Contenedor
 
-const ContenedorMensajesMongoDb = require("../contenedores/ContenedorMensajesMongoDB.js");
+const ContenedorMensajesMongoDb = require("../contenedores/ContenedorMensajesMongoDb.js");
 const mensajesApi = new ContenedorMensajesMongoDb( MensajesModel);
 
 
